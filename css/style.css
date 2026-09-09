@@ -1,7 +1,16 @@
 #navigation {
-      background-color:#8a765a !important;
+      background-color: #6F4E37 !important;
 }
 
 .nav-link:hover {
     color: white !important;
+}
+
+.nav-link {
+    color: #ECB176 !important;
+}
+
+.nav-link.active {
+    color: #FED8B1 !important;
+    border-bottom: solid 2px #FED8B1 !important;
 }
