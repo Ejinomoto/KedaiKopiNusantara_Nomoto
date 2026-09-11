@@ -14,3 +14,24 @@
     color: #FED8B1 !important;
     border-bottom: solid 2px #FED8B1 !important;
 }
+
+#keunggulan img {
+    max-width: 50px;
+    height: auto;
+}
+
+#keunggulan h5,
+#keunggulan p {
+    color: #FED8B1 !important;
+}
+
+#keunggulan .card {
+    border: 1px solid rgba(0,0,0,0.08);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    background-color: #6F4E37;
+}
+
+#keunggulan .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+}

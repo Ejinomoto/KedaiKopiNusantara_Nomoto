@@ -10,58 +10,126 @@
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="navigation">
-        <div class="container-fluid ">
-            <a class="navbar-brand px-2" href="index.html">
-                <img src="asset/logo.png" alt="Kedai Kopi Nusantara" width="50" height="50">
-            </a>
-            <!-- <a class="navbar-brand text-dark" href="#">Kedai Kopi Nusantara</a> -->
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item px-4">
-                        <a class="nav-link active h4" aria-current="page"
-                            href="index.html"><strong>Home</strong></a>
-                    </li>
-                    <li class="nav-item px-4">
-                        <a class="nav-link h4" href="menu.html"><strong>Menu</strong></a>
-                    </li>
-                    <li class="nav-item px-4">
-                        <a class="nav-link h4" href="about.html"><strong>About</strong></a>
-                    </li>
-                    <li class="nav-item px-4">
-                        <a class="nav-link h4" href="gallery.html"><strong>Gallery</strong></a>
-                    </li>
-                    <li class="nav-item px-4">
-                        <a class="nav-link h4" href="contact.html"><strong>Contact Us</strong></a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    <!-- Hero -->
-    <div class="container col-xxl-10 px-2 py-5">
-        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
-            <div class="col-10 col-sm-8 col-lg-6">
-                <img src="asset/hero.jpg" class="d-block mx-lg-auto rounded-lg img-fluid" alt="Coffee Hero" width="700"
-                    height="500" loading="lazy">
-            </div>
-            <div class="col-lg-6">
-                <h1 class="display-5 fw-bold lh-1 mb-3">Responsive left-aligned hero with image</h1>
-                <p class="lead">Quickly design and customize responsive mobile-first sites with Bootstrap, the world’s
-                    most popular front-end open source toolkit, featuring Sass variables and mixins, responsive grid
-                    system, extensive prebuilt components, and powerful JavaScript plugins.</p>
-                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-                    <button type="button" class="btn btn-primary btn-lg px-4 me-md-2">Primary</button>
-                    <button type="button" class="btn btn-outline-secondary btn-lg px-4">Default</button>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" id="navigation">
+            <div class="container-fluid ">
+                <a class="navbar-brand px-2" href="index.html">
+                    <img src="asset/logo.png" alt="Kedai Kopi Nusantara" width="50" height="50">
+                </a>
+                <!-- <a class="navbar-brand text-dark" href="#">Kedai Kopi Nusantara</a> -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item px-4">
+                            <a class="nav-link active h4" aria-current="page"
+                                href="index.html"><strong>Home</strong></a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a class="nav-link h4" href="menu.html"><strong>Menu</strong></a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a class="nav-link h4" href="about.html"><strong>About</strong></a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a class="nav-link h4" href="gallery.html"><strong>Gallery</strong></a>
+                        </li>
+                        <li class="nav-item px-4">
+                            <a class="nav-link h4" href="contact.html"><strong>Contact Us</strong></a>
+                        </li>
+                    </ul>
                 </div>
             </div>
-        </div>
-    </div>
-    <!-- Hero -->
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <!-- Hero -->
+            <div class=" px-2 py-5" style="background-color: #FED8B1;">
+                <div class="row flex-lg-row-reverse align-items-center g-5 py-5 px-4">
+                    <div class="col-10 col-sm-8 col-lg-6">
+                        <img src="asset/hero.jpg" class="d-block mx-lg-auto img-fluid" style="border-radius: 10%;"
+                            alt="Coffee Hero" width="700" height="500" loading="lazy">
+                    </div>
+                    <div class="col-lg-6 px-5">
+                        <h1 class="display-5 fw-bold lh-1 mb-3" style="color: #6F4E37 !important;">Selamat datang di
+                            Kedai Kopi
+                            Nusantara</h1>
+                        <p class="lead ">Di mana setiap seduhan menghadirkan kekayaan rasa khas dari berbagai sudut
+                            negeri. Kami
+                            menghadirkan biji kopi pilihan terbaik hasil panen petani lokal, disangrai dengan presisi
+                            untuk
+                            menjaga keautentikan aroma dan cita rasanya. Nikmati kehangatan racikan kopi terbaik
+                            Indonesia dalam
+                            suasana yang nyaman dan penuh keakraban.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Hero -->
+        </section>
+
+        <section class="py-5" style="background-color: #ECB176 !important;">
+            <!-- Keunggulan -->
+            <div class="container text-center">
+                <h1 class="display-6 fw-bold lh-1 mb-5">Keunggulan Kami</h1>
+                <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 justify-content-center" id="keunggulan">
+
+                    <div class="col">
+                        <div class="card h-100 p-3 shadow-sm border-0">
+                            <img src="asset/sprout.png" class="mx-auto pt-3" alt="Sprout">
+                            <div class="card-body d-flex flex-column justify-content-start">
+                                <h5 class="card-title fw-bold my-3">100% Biji Kopi Petani Lokal</h5>
+                                <p class="card-text text-muted small">Menyajikan biji kopi pilihan langsung dari
+                                    perkebunan terbaik Indonesia untuk mendukung kesejahteraan petani lokal.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100 p-3 shadow-sm border-0">
+                            <img src="asset/fire.png" class="mx-auto pt-3" alt="Fire">
+                            <div class="card-body d-flex flex-column justify-content-start">
+                                <h5 class="card-title fw-bold my-3">Artisan Roast</h5>
+                                <p class="card-text text-muted small">Memproses biji kopi secara khusus dengan tingkat
+                                    penyangraian terukur guna mengekstraksi keautentikan rasa dan aroma alami secara
+                                    maksimal.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100 p-3 shadow-sm border-0">
+                            <img src="asset/coffee-beans.png" class="mx-auto pt-3" alt="Coffee Beans">
+                            <div class="card-body d-flex flex-column justify-content-start">
+                                <h5 class="card-title fw-bold my-3">Cita Rasa Otentik & Variatif</h5>
+                                <p class="card-text text-muted small">Menawarkan keberagaman profil rasa khas Nusantara,
+                                    mulai dari single origin berkualitas tinggi hingga racikan house blend eksklusif.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col">
+                        <div class="card h-100 p-3 shadow-sm border-0">
+                            <img src="asset/armchair.png" class="mx-auto pt-3" alt="Armchair">
+                            <div class="card-body d-flex flex-column justify-content-start">
+                                <h5 class="card-title fw-bold my-3">Suasana Hangat & Nyaman</h5>
+                                <p class="card-text text-muted small">Menyediakan ruang yang didesain khusus untuk
+                                    mendukung berbagai aktivitas, mulai dari bersantai, bekerja, hingga berkumpul
+                                    bersama teman.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <!-- Keunggulan -->
+        </section>
+    </main>
+
 </body>
 
 </html>
